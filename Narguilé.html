@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narguilé</title>
+    <style>
+        /* Cor de fundo para toda a página */
+        body {
+            background-image: linear-gradient(to bottom, #e1f5fe, #81d4fa); /* Azul claro em degradê */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Estilo dos links */
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Estilo do botão */
+        button {
+            background-color: #00796b; /* Cor do botão */
+            color: white; /* Cor do texto */
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s; /* Efeito de transição */
+            margin-top: 10px; /* Espaço acima do botão */
+        }
+
+        button:hover {
+            transform: scale(1.05); /* Aumento de tamanho no hover */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra no hover */
+        }
+
+        /* Centralizar os narguilés */
+        #narguiles {
+            text-align: center;
+            display: flex; /* Flexbox para alinhamento */
+            justify-content: center;
+            flex-wrap: wrap; /* Quebra de linha quando necessário */
+            margin-top: 20px;
+        }
+
+        /* Espaço entre os itens */
+        .narguile-item {
+            margin: 15px;
+            transition: transform 0.3s; /* Transição suave */
+            perspective: 1000px; /* Perspectiva para 3D */
+            width: 350px; /* Largura fixa para todos os itens */
+            background-color: white; /* Fundo branco para o item */
+            border-radius: 10px; /* Bordas arredondadas */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra do item */
+            padding: 20px; /* Espaço interno */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Alinhar itens ao centro */
+        }
+
+        .narguile-item:hover {
+            transform: scale(1.05); /* Aumento de tamanho no hover */
+        }
+
+        img {
+            border-radius: 10px; /* Bordas arredondadas nas imagens */
+            width: 100%; /* Imagem ocupa a largura total do item */
+            height: auto; /* Manter proporção da imagem */
+        }
+
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .description {
+            font-size: 0.9em;
+            color: #555; /* Cor do texto da descrição */
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="visual.html"><button>Voltar ao Início</button></a>
+    <h2>Narguilés Disponíveis</h2>
+    <section id="narguiles">
+        <div class="narguile-item">
+            <img src="narga3.jpg" alt="Modelo 3">
+            <button>Modelo 3 - R$ 399,00</button>
+            <p class="description">Narguilé de alta qualidade com design sofisticado e resistência superior.</p>
+        </div>
+        <div class="narguile-item">
+            <img src="narga2 (1).jpg" alt="Modelo 2">
+            <button>Modelo 2 - R$ 349,00</button>
+            <p class="description">Modelo médio com boa capacidade de fumaça e fácil limpeza.</p>
+        </div>
+        <div class="narguile-item">
+            <img src="narga.png" alt="Modelo 1">
+            <button>Modelo 1 - R$ 299,00</button>
+            <p class="description">Modelo básico ideal para iniciantes, leve e prático.</p>
+        </div>
+    </section>
+</body>
+</html>
