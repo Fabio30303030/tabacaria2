@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 20px;
   background-image: linear-gradient(to bottom, #e0f7fa, #00796b);
-  color: #ffffff;
+  color: #f8f8f8;
   animation: fadeIn 1s;
 }
 
@@ -30,7 +30,7 @@ nav a {
   margin: 0 15px;
   text-decoration: none;
   color: #ffffff;
-  background-color: rgba(8, 165, 55, 0.7411764706);
+  background-color: #333;
   padding: 10px 15px;
   border-radius: 5px;
   transition: background-color 0.3s, transform 0.3s;
@@ -125,12 +125,13 @@ footer {
 header {
   background: linear-gradient(to bottom right, #e1f5fe, #81d4fa); /* Light blue gradient */
   padding: 40px;
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: start;
+  margin-bottom: 10px;
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 8px 15px rgba(14, 157, 201, 0.3); /* 3D shadow effect */
   transform: translateZ(0); /* New layer for better rendering */
   animation: fadeInUp 0.6s ease forwards; /* Animation */
+  height: 30px;
 }
 
 h1 {
@@ -168,12 +169,11 @@ h2, h4 {
   }
 }
 header {
-  background: linear-gradient(to bottom right, #e1f5fe, #81d4fa); /* Light blue gradient */
+  background: linear-gradient(to bottom right, #e1f5fe, #d8e4ea); /* Light blue gradient */
   padding: 40px;
   text-align: center;
   margin-bottom: 20px;
   border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 8px 15px rgba(14, 157, 201, 0.3); /* 3D shadow effect */
   transform: translateZ(0); /* New layer for better rendering */
   animation: fadeInUp 0.6s ease forwards; /* Animation */
 }
@@ -320,13 +320,12 @@ button a {
 
 /* Espaço entre os itens */
 /* Cor de fundo para toda a página */
-body {
-  background-image: linear-gradient(to bottom, #e1f5fe, #81d4fa); /* Azul claro em degradê */
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-}
-
+/*body {
+    background-image: linear-gradient(to bottom, #e1f5fe, #81d4fa);  Azul claro em degradê 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; 
+} */
 /* Estilo dos links */
 a {
   text-decoration: none;
@@ -393,4 +392,52 @@ h2 {
   font-size: 0.9em;
   color: #555; /* Cor do texto da descrição */
   margin: 5px 0;
+}
+
+.centralizado {
+  text-align: center;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #c2d1d9;
+  height: 65px;
+  display: block;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 40px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
