@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 10 0px;
-    background-image: linear-gradient(to bottom, $gray-dark, white);
+    background-image: linear-gradient(to bottom, white, white);
     color: #f8f8f8;
     animation: fadeIn 1s;
 }
@@ -20,6 +20,11 @@ body {
     text-align: center;
     padding: 0%;
     box-sizing: border-box;
+    padding-top: 10px;
+    background-image: url(/img/WhatsApp_Image_2024-11-07_at_15.26.27-removebg-preview-fotor-202411071743.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2%;
     
  }
 
@@ -35,29 +40,31 @@ h1 {
     margin: 10px 0;
 }
 
-/* nav {
-    margin: 0px 10;
+nav {
+    margin: 20px 10;
     display: flex;
     justify-content: center;
     text-align: center;
-    position: fixed;
     height: - 20px;
-
-} */
+} 
 
 nav a {
     margin: 0 0px;
     text-decoration: none;
     color: #ffffff;
-    background-color: #333;
-    padding: 10px 15px;
-    border-radius: 5px;
+    background-color: $black;
+    padding: 10px 5px;
+    border-radius: 10%;
     transition: background-color 0.3s, transform 0.3s;
+    text-align: end;
+    margin-top: 20px;
+    
 }
 
 nav a:hover {
-    background-color: #116799;
+    background-color: $gray-dark;
     transform: scale(1.05);
+    color: white;
 }
 
  .caixa {
@@ -428,15 +435,47 @@ h2 {
 //colunas
 
 .colunas{
-    background-color: #555;
+    background-color: $gray-dark;
     columns: 3;
     column-gap: 20px;
     align-items: center;
     justify-content: center;
+    padding: 40px;
+    height: 200px;
 }
 
+.colunas a{
+    color: $black;
+    
+}
+
+.colunas li{
+    margin-left: 100px;
+}
+
+.texto-ajustado {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $black;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.sub-texto {
+    margin-left: 50px; 
+    font-size: 12px; 
+}
+
+.imagem{
+    border-radius: 100%;
+    width: 150%;
+    height: 150%;
+    object-fit: cover;
+}
+    
+
 //Rodapé
-footer {
+footer{
     background-color: $black;
     color: white;
     height: 55px; 
@@ -448,14 +487,16 @@ footer {
     bottom: 0; 
     left: 0;
     right: 0;
+    margin-top: -20px;
 }
 
 //carrosel
 
 .carousel-inner img {
-    width: 100%;
+    width: 10px;
     height: 500px;
-    border-radius: 0px; 
+    border-radius: 0px;
+    padding: 20px;
 }
 
 .carousel-item {
@@ -495,20 +536,20 @@ footer {
 }
 
 .produto {
-    width: 200px;
+    width: 300px;
     text-align: center;
     background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    /* border: 1px solid #ddd;*/
+    border-radius: 0px;
     padding: 15px;
     position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 
 .produto img {
     width: 100%;
-    height: auto;
+    height: 290px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -542,7 +583,7 @@ footer {
 
 //contato
 
-.contato-container input[type="text"],
+/*.contato-container input[type="text"],
 .contato-container input[type="email"],
 .contato-container select,
 .contato-container textarea {
@@ -578,7 +619,7 @@ footer {
     color: #2c8f60;
     margin-bottom: 5px;
     display: block;
-}
+} */
 
 
 // botão do whats
@@ -600,4 +641,37 @@ footer {
 .whatsapp-button img {
     width: 40px;
     height: auto;
+}
+
+//pop up
+
+#lei-alerta {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    color: #721c24;
+    text-align: center;
+    display: none; 
+    z-index: 1000;
+    border-radius: 8px;
+}
+
+#lei-alerta h2 {
+    margin-top: 0;
+}
+
+#lei-alerta button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #721c24;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
