@@ -2,32 +2,44 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
-  background-image: linear-gradient(to bottom, #e0f7fa, #00796b);
+  padding: 10 0px;
+  background-image: linear-gradient(to bottom, #cfcfcf, white);
   color: #f8f8f8;
   animation: fadeIn 1s;
 }
 
-header {
-  background: linear-gradient(to bottom, #004d40, #00796b);
-  padding: 20px;
+.topo {
+  background-color: black;
+  height: 50px;
+  position: static;
+  margin: 0%;
   text-align: center;
-  margin-bottom: 20px;
-  animation: slideDown 0.5s;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
+/* header {
+    background: linear-gradient(to bottom, #004d40, #00796b);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    animation: slideDown 0.5s;
+} */
 h1 {
   margin: 10px 0;
 }
 
-nav {
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-}
+/* nav {
+    margin: 0px 10;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    height: - 20px;
 
+} */
 nav a {
-  margin: 0 15px;
+  margin: 0 0px;
   text-decoration: none;
   color: #ffffff;
   background-color: #333;
@@ -397,11 +409,25 @@ h2 {
 .centralizado {
   text-align: center;
   font-size: 12px;
+  color: white;
+  align-items: flex-start;
+  margin-top: -10px;
+}
+
+.colunas {
+  background-color: #555;
+  -moz-columns: 3;
+       columns: 3;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
-  background-color: #c2d1d9;
-  height: 65px;
+  background-color: #000000;
+  color: white;
+  height: 55px;
   display: block;
   justify-content: center;
   width: 100%;
@@ -414,12 +440,123 @@ footer {
 
 .carousel-inner img {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
+  height: 500px;
+  border-radius: 0px;
 }
 
 .carousel-item {
   text-align: center;
+}
+
+.contato-container {
+  background-color: #f0f8ff;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.contato-container .form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.produtos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.produto {
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.produto h3 {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.produto .preco {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.produto .parcelamento {
+  font-size: 14px;
+  color: #666;
+}
+
+.produto .pix {
+  font-size: 14px;
+  color: #333;
+}
+
+.produto .preco-pix {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.contato-container input[type=text],
+.contato-container input[type=email],
+.contato-container select,
+.contato-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0%;
+  font-size: 16px;
+}
+
+.contato-container textarea {
+  resize: vertical;
+}
+
+.contato-container button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contato-container button:hover {
+  background-color: #218838;
+}
+
+.contato-container label {
+  font-weight: bold;
+  color: #2c8f60;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .whatsapp-button {
