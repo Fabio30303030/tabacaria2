@@ -18,7 +18,7 @@ body {
   box-sizing: border-box;
   padding-top: 10px;
   background-image: url(/img/WhatsApp_Image_2024-11-07_at_15.26.27-removebg-preview-fotor-202411071743.png);
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: 2%;
 }
@@ -115,56 +115,56 @@ footer {
   height: 100px;
   background: linear-gradient(to bottom right, #b3e5fc, #0288d1); /* Light blue to dark blue gradient */
   padding: 20px;
-  color: white; /* White text */
+  color: white;
   text-align: center;
   margin-bottom: 20px;
-  border-radius: 10px; /* Rounded corners */
+  border-radius: 10px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3), 0 2px 5px rgba(0, 0, 0, 0.2); /* 3D shadow effect */
-  transform: translateZ(0); /* New layer for better rendering */
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
-  animation: fadeInUp 0.6s ease forwards; /* Animation for caixa */
+  transform: translateZ(0);
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: fadeInUp 0.6s ease forwards;
 }
 
 .caixa:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
+  transform: translateY(-5px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4), 0 4px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
 
 .caixa h2 {
-  margin: 0; /* Remove default margin */
-  font-size: 1.5em; /* Larger font size */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+  margin: 0;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .caixa p {
-  margin: 5px 0 0; /* Spacing for paragraph */
-  font-size: 1em; /* Consistent font size */
+  margin: 5px 0 0;
+  font-size: 1em;
 }
 
 header {
-  background: linear-gradient(to bottom right, #e1f5fe, #81d4fa); /* Light blue gradient */
+  background: linear-gradient(to bottom right, #e1f5fe, #81d4fa);
   padding: 40px;
   text-align: start;
   margin-bottom: 10px;
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 8px 15px rgba(14, 157, 201, 0.3); /* 3D shadow effect */
-  transform: translateZ(0); /* New layer for better rendering */
-  animation: fadeInUp 0.6s ease forwards; /* Animation */
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(14, 157, 201, 0.3);
+  transform: translateZ(0);
+  animation: fadeInUp 0.6s ease forwards;
   height: 30px;
 }
 
 h1 {
   margin: 0;
-  font-size: 2.5em; /* Increased size for prominence */
-  color: #ffffff; /* White text */
-  text-shadow: 2px 2px 4px rgba(27, 128, 175, 0.5); /* Stronger shadow for depth */
-  animation: slideIn 0.5s ease forwards; /* Animation for header */
+  font-size: 2.5em;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(27, 128, 175, 0.5);
+  animation: slideIn 0.5s ease forwards;
 }
 
 h2, h4 {
   margin: 5px 0;
-  color: #ffffff; /* White text */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes fadeInUp {
@@ -192,23 +192,23 @@ header {
   padding: 40px;
   text-align: center;
   margin-bottom: 20px;
-  border-radius: 10px; /* Rounded corners */
-  transform: translateZ(0); /* New layer for better rendering */
-  animation: fadeInUp 0.6s ease forwards; /* Animation */
+  border-radius: 10px;
+  transform: translateZ(0);
+  animation: fadeInUp 0.6s ease forwards;
 }
 
 h1 {
   margin: 0;
-  font-size: 2.5em; /* Increased size for prominence */
-  color: #ffffff; /* White text */
-  text-shadow: 2px 2px 4px rgba(27, 128, 175, 0.5); /* Stronger shadow for depth */
-  animation: slideIn 0.5s ease forwards; /* Animation for header */
+  font-size: 2.5em;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(27, 128, 175, 0.5);
+  animation: slideIn 0.5s ease forwards;
 }
 
 h2, h4 {
   margin: 5px 0;
-  color: #ffffff; /* White text */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes fadeInUp {
@@ -233,11 +233,11 @@ h2, h4 {
 }
 .acessorios {
   padding: 20px;
-  background-color: #f8f8f8; /* Cor de fundo para a seção de acessórios */
+  background-color: #f8f8f8;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 40px; /* Espaço abaixo da seção */
-  text-align: center; /* Centraliza o texto da seção */
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 #acessorios {
@@ -259,81 +259,81 @@ h2, h4 {
   flex: 1 1 350px;
   min-width: 325px;
   max-width: 300px;
-  position: relative; /* Para efeitos adicionais */
+  position: relative;
 }
 
 .acessorio-item:hover {
-  transform: scale(1.05); /* Aumento de tamanho no hover */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Sombra mais intensa no hover */
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .acessorio-item img {
-  border-radius: 10px; /* Bordas arredondadas nas imagens */
+  border-radius: 10px;
   width: 100%;
   height: auto;
   max-width: 200px;
-  transition: transform 0.3s; /* Transição suave para o efeito de hover na imagem */
+  transition: transform 0.3s;
 }
 
 .acessorio-item:hover img {
-  transform: scale(1.1); /* Aumento de tamanho da imagem no hover */
+  transform: scale(1.1);
 }
 
 h2 {
   text-align: center;
   color: #333;
-  font-size: 1.8em; /* Aumenta o tamanho do título */
-  margin-bottom: 20px; /* Espaçamento abaixo do título */
-  font-weight: bold; /* Título em negrito */
-  text-transform: uppercase; /* Título em letras maiúsculas */
-  letter-spacing: 1px; /* Espaçamento entre letras */
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 p {
   color: #555;
-  font-size: 1.1em; /* Aumenta o tamanho da descrição */
-  margin-top: 10px; /* Espaçamento acima da descrição */
-  line-height: 1.5; /* Aumenta a altura da linha para melhor legibilidade */
-  text-align: justify; /* Justifica o texto da descrição */
-  padding: 0 10px; /* Espaçamento lateral */
+  font-size: 1.1em;
+  margin-top: 10px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 10px;
 }
 
 .sobrenos {
-  max-width: 800px; /* Largura máxima para o texto */
-  margin: 0 auto; /* Centraliza o container */
-  padding: 20px; /* Espaço interno */
-  background-color: white; /* Fundo branco para o texto */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra do container */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 button {
-  background-color: #00796b; /* Cor do botão */
-  color: white; /* Cor do texto */
+  background-color: #00796b;
+  color: white;
   border: none;
   padding: 10px 15px;
-  border-radius: 5px; /* Bordas arredondadas */
+  border-radius: 5px;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s; /* Efeito de transição */
-  display: block; /* Botão em bloco */
-  margin: 20px auto; /* Centraliza o botão */
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: block;
+  margin: 20px auto;
 }
 
 button:hover {
-  transform: scale(1.05); /* Aumento de tamanho no hover */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra no hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 button a {
-  color: white; /* Cor do texto do link no botão */
-  text-decoration: none; /* Remove o sublinhado */
+  color: white;
+  text-decoration: none;
 }
 
 #narguiles {
   text-align: center;
-  display: flex; /* Flexbox para alinhamento */
+  display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Quebra de linha quando necessário */
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
@@ -353,53 +353,53 @@ a {
 
 /* Estilo do botão */
 button {
-  background-color: #00796b; /* Cor do botão */
-  color: white; /* Cor do texto */
+  background-color: #00796b;
+  color: white;
   border: none;
   padding: 10px 15px;
-  border-radius: 5px; /* Bordas arredondadas */
+  border-radius: 5px;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s; /* Efeito de transição */
-  margin-top: 10px; /* Espaço acima do botão */
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 10px;
 }
 
 button:hover {
-  transform: scale(1.05); /* Aumento de tamanho no hover */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra no hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Centralizar os narguilés */
 #narguiles {
   text-align: center;
-  display: flex; /* Flexbox para alinhamento */
+  display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Quebra de linha quando necessário */
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
 /* Espaço entre os itens */
 .narguile-item {
   margin: 15px;
-  transition: transform 0.3s; /* Transição suave */
-  perspective: 1000px; /* Perspectiva para 3D */
-  width: 350px; /* Largura fixa para todos os itens */
-  background-color: white; /* Fundo branco para o item */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra do item */
-  padding: 20px; /* Espaço interno */
+  transition: transform 0.3s;
+  perspective: 1000px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinhar itens ao centro */
+  align-items: center;
 }
 
 .narguile-item:hover {
-  transform: scale(1.05); /* Aumento de tamanho no hover */
+  transform: scale(1.05);
 }
 
 img {
-  border-radius: 10px; /* Bordas arredondadas nas imagens */
-  width: 100%; /* Imagem ocupa a largura total do item */
-  height: auto; /* Manter proporção da imagem */
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
 
 h2 {
@@ -409,7 +409,7 @@ h2 {
 
 .description {
   font-size: 0.9em;
-  color: #555; /* Cor do texto da descrição */
+  color: #555;
   margin: 5px 0;
 }
 
@@ -520,11 +520,9 @@ footer {
   width: 300px;
   text-align: center;
   background-color: #fff;
-  /* border: 1px solid #ddd;*/
   border-radius: 0px;
   padding: 15px;
   position: relative;
-  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .produto img {
@@ -642,7 +640,7 @@ footer {
 #lei-alerta button {
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #721c24;
+  background-color: #cfcfcf;
   color: white;
   border: none;
   cursor: pointer;
